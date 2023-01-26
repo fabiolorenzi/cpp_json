@@ -13,13 +13,16 @@ int main()
     reader.parse(file, actualJson);
 
     // The code below is to get all the json
-    // std::cout << actualJson << std::endl;
+    std::cout << actualJson << std::endl;
 
     // The code below is to get a specific key from the json
-    // std::cout << "Name: " << actualJson["name"] << std::endl;
+    std::cout << "Name: " << actualJson["name"] << std::endl;
 
     // The code below is to manage an array of objects
     std::cout << actualJson["data"][0] << std::endl;
+
+    int close{};
+    std::cin >> close;
 
     return 0;
 }
