@@ -23,11 +23,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="test.json">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\..\..\setup\jsoncpp-master\jsoncpp-master\include\json\allocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -64,5 +59,10 @@
     <ClInclude Include="..\..\..\..\setup\jsoncpp-master\jsoncpp-master\dist\json\json.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.json">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
