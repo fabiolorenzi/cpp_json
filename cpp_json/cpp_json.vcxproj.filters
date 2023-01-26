@@ -64,7 +64,7 @@
     <None Include="test.json">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="README">
+    <None Include="README.md">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

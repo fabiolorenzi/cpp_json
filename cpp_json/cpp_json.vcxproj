@@ -133,6 +133,7 @@
     <ClCompile Include="cpp_json.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="test.json" />
   </ItemGroup>
   <ItemGroup>
